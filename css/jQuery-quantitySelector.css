@@ -1,0 +1,36 @@
+.number-select-box {
+  position: relative;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  color: #009DFF;
+  text-align: center;
+}
+.number-select-box .select-btn {
+  position: absolute;
+  top: 2px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+}
+.number-select-box .select-btn.remove {
+  left: 0;
+  border: 1px solid #009DFF;
+  background: #fff;
+}
+.number-select-box .select-btn.remove span {
+  position: relative;
+  top: -2px;
+  color: #009DFF;
+}
+.number-select-box .select-btn.add {
+  right: 0;
+  background: #009DFF;
+}
+.number-select-box .select-btn.add span {
+  color: #fff;
+}
